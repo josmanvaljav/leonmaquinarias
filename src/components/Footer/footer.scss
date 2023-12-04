@@ -1,0 +1,209 @@
+// Footer -----------------------------------
+
+.linkWhatsapp {
+    position: fixed;
+    // width: 20rem;
+    // height: auto;
+    bottom: 3rem;
+    right: 0.5rem;
+    z-index: 10;
+
+    .iconWhatsapp {
+        color: var(--whatsappColor);
+        // background-color: var(--whatsappColor);
+        // border: 2px solid var(--whiteColor);
+        width: 6rem;
+        height: auto;
+    }
+}
+
+.footer {
+    background: var(--primaryColor);
+
+    .sectionContainer {
+        gap: 2.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+
+        .gridOne {
+            gap: 1rem;
+            justify-content: center;
+            // margin: auto;
+            margin-top: 2rem;
+
+            .logoDiv {
+                .logo {
+                    width: 40%;
+                }
+            }
+        }
+
+        .footerText {
+            p {
+                color: var(--whiteColor);
+            }
+        }
+
+        .footerLinks {
+            display: grid;
+
+            .linkTitle {
+                color: var(--secondaryColor);
+                font-weight: 500;
+                display: block;
+                padding-bottom: 1rem;
+            }
+
+            li a {
+                display: block;
+                color: var(--whiteColor);
+                transition: var(--transition);
+                padding: 0.3rem 0;
+
+                &:hover {
+                    transform: translateX(7px);
+                    color: var(--secondaryColor);
+                }
+            }
+        }
+
+        .socialNetwork {
+            .linkTitle {
+                color: var(--secondaryColor);
+                font-weight: 500;
+                display: block;
+                padding-bottom: 1rem;
+            }
+
+            .socialIcon {
+                margin-top: 1rem;
+                gap: 1rem;
+
+                .icon {
+                    height: 50px;
+                    width: 30px;
+                    border-radius: 10rem;
+                    border: 1px solid var(--borderColor);
+                    box-shadow: var(--boxShadow);
+                    padding: 0.4rem;
+                    color: var(--whiteColor);
+
+                    &:hover {
+                        background: var(--secondaryColor);
+                        transform: translateY(-7px);
+                        transition: var(--transition);
+                        border: 1px solid var(--primaryColor);
+                        color: var(--primaryColor);
+                    }
+                }
+            }
+        }
+    }
+
+    .copyRightDiv {
+        // top: 4rem;
+        justify-content: center;
+        margin-top: 2.5rem;
+        padding: 0.5rem;
+        gap: 1rem;
+        border-top: 1px solid var(--whiteColor);
+        text-align: center;
+
+        p {
+            color: var(--whiteColor);
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (min-width: 570px) {
+    .footer {
+        margin-top: 2rem;
+
+        .sectionContainer {
+            .footerText {
+                p {
+                    font-size: 14px;
+                }
+            }
+    
+        }
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .footer {
+        .sectionContainer {
+            margin-top: 2rem;
+            // padding: 1.5rem;
+            grid-template-columns: repeat(2,1fr);
+
+            .gridOne {
+                margin: 0 auto;
+
+                .logoDiv {
+                    margin: 0 auto;
+
+                    .logo {
+                        margin: 0 auto;
+                        width: 200px;
+                    }
+                }
+            }
+
+            .socialNetwork {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .footer {
+        padding-top: 2rem;
+
+        .sectionContainer {
+            margin-top: 0;
+
+            .gridOne {
+                margin: 0 auto;
+            }
+
+            .footerText {
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            .footerLinks {
+                margin-left: 2rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer {
+        margin: 0;
+
+        .sectionContainer {
+            margin: 0 auto;
+            grid-template-columns: repeat(4,1fr);
+
+            .gridOne {
+                .logoDiv {
+                    .logo {
+                        width: 180px;
+                    }
+                }
+            }
+
+            .footerText {
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

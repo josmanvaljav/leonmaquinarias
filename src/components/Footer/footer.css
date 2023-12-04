@@ -1,0 +1,149 @@
+.linkWhatsapp {
+  position: fixed;
+  bottom: 3rem;
+  right: 0.5rem;
+  z-index: 10;
+}
+.linkWhatsapp .iconWhatsapp {
+  color: var(--whatsappColor);
+  width: 6rem;
+  height: auto;
+}
+
+.footer {
+  background: var(--primaryColor);
+}
+.footer .sectionContainer {
+  gap: 2.5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.footer .sectionContainer .gridOne {
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.footer .sectionContainer .gridOne .logoDiv .logo {
+  width: 40%;
+}
+.footer .sectionContainer .footerText p {
+  color: var(--whiteColor);
+}
+.footer .sectionContainer .footerLinks {
+  display: grid;
+}
+.footer .sectionContainer .footerLinks .linkTitle {
+  color: var(--secondaryColor);
+  font-weight: 500;
+  display: block;
+  padding-bottom: 1rem;
+}
+.footer .sectionContainer .footerLinks li a {
+  display: block;
+  color: var(--whiteColor);
+  transition: var(--transition);
+  padding: 0.3rem 0;
+}
+.footer .sectionContainer .footerLinks li a:hover {
+  transform: translateX(7px);
+  color: var(--secondaryColor);
+}
+.footer .sectionContainer .socialNetwork .linkTitle {
+  color: var(--secondaryColor);
+  font-weight: 500;
+  display: block;
+  padding-bottom: 1rem;
+}
+.footer .sectionContainer .socialNetwork .socialIcon {
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.footer .sectionContainer .socialNetwork .socialIcon .icon {
+  height: 50px;
+  width: 30px;
+  border-radius: 10rem;
+  border: 1px solid var(--borderColor);
+  box-shadow: var(--boxShadow);
+  padding: 0.4rem;
+  color: var(--whiteColor);
+}
+.footer .sectionContainer .socialNetwork .socialIcon .icon:hover {
+  background: var(--secondaryColor);
+  transform: translateY(-7px);
+  transition: var(--transition);
+  border: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
+}
+.footer .copyRightDiv {
+  justify-content: center;
+  margin-top: 2.5rem;
+  padding: 0.5rem;
+  gap: 1rem;
+  border-top: 1px solid var(--whiteColor);
+  text-align: center;
+}
+.footer .copyRightDiv p {
+  color: var(--whiteColor);
+  font-size: 12px;
+}
+
+@media screen and (min-width: 570px) {
+  .footer {
+    margin-top: 2rem;
+  }
+  .footer .sectionContainer .footerText p {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .footer .sectionContainer {
+    margin-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer .sectionContainer .gridOne {
+    margin: 0 auto;
+  }
+  .footer .sectionContainer .gridOne .logoDiv {
+    margin: 0 auto;
+  }
+  .footer .sectionContainer .gridOne .logoDiv .logo {
+    margin: 0 auto;
+    width: 200px;
+  }
+  .footer .sectionContainer .socialNetwork {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 960px) {
+  .footer {
+    padding-top: 2rem;
+  }
+  .footer .sectionContainer {
+    margin-top: 0;
+  }
+  .footer .sectionContainer .gridOne {
+    margin: 0 auto;
+  }
+  .footer .sectionContainer .footerText p {
+    font-size: 16px;
+  }
+  .footer .sectionContainer .footerLinks {
+    margin-left: 2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    margin: 0;
+  }
+  .footer .sectionContainer {
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer .sectionContainer .gridOne .logoDiv .logo {
+    width: 180px;
+  }
+  .footer .sectionContainer .footerText p {
+    font-size: 12px;
+  }
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,385 @@
+// Search -----------------------------------
+.contact {
+    .sectionContainer {
+        width: 100%;
+        // padding: 1.5rem;
+        row-gap: 2rem;
+
+        .searchInputs {
+            width: 100%;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .singleInput {
+                // margin-left: 1rem;
+                border: 2px solid var(--primaryColor);
+                border-radius: 16px;
+                padding: 2rem 0;
+                // margin-right: 1rem;
+
+                .iconGroup {
+                    margin-right: 1rem;
+                    margin-left: 0.8rem;
+                    gap: 0.5rem;
+
+                    .iconDiv {
+                        // padding: auto 0;
+                        width: 4rem;
+                        height: 3rem;
+                        border-radius: 2.5rem;
+                        background: var(--primaryColor);
+                        // text-align: center;
+                        display: flex;
+                        // vertical-align: middle;
+                        
+                        
+                        .icon {
+                            // align-items: center;
+                            margin: 0 auto;
+                            color: var(--secondaryColor);
+                            // opacity: 0.7;
+                            width: 3rem;
+                            height: auto;
+                        }
+                    }
+                }
+
+                .texts {
+                    h2 {
+                        padding-top: 0;
+                        padding-bottom: 0.5rem;
+                        color: var(--blackColor);
+                        font-weight: 700;
+                        font-size: 18px;
+                    }
+
+                    h4 {
+                        padding-top: 0;
+                        padding-bottom: 0.5rem;
+                        color: var(--blackColor);
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .formContainer {
+            width: 100%;
+
+            .tittleDiv {
+                h4 {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+
+            .formElement {
+                width: 100%;
+                .formSection {
+                    margin-bottom: 0.8rem;
+
+                    div {
+                        input {
+                            width: 100%;
+                        }
+
+                        textarea {
+                            width: 100%;
+                            height: 6rem;
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                input {
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .contact {
+        .sectionContainer {
+            .searchInputs {
+                .singleInput {
+                    margin-right: 1rem;
+
+                    .iconGroup {
+                        margin-left: 1.5rem;
+
+                        .iconDiv {
+                            .icon {
+                                width: 1.5rem;
+                            }
+                        }
+                    }
+    
+                    .texts {
+                        margin-left: 1rem;
+
+                        h2 {
+                            // padding-bottom: 0.5rem;
+                            font-size: 20px;
+                        }
+    
+                        h4 {
+                            // padding-bottom: 0.5rem;
+                            font-size: 16px;
+                        }
+                    }
+                    }
+            }
+
+            .formContainer {
+                .tittleDiv {
+                    h4 {
+                        font-size: 20px;
+                    }
+                }
+    
+                .formElement {
+                    input {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 570px) {
+    .contact {
+        .sectionContainer {
+            .searchInputs {
+                .singleInput {
+                    .texts {
+                        h2 {
+                            font-size: 22px;
+                        }
+    
+                        h4 {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+
+            .formContainer {
+                .tittleDiv {
+                    h4 {
+                        font-size: 22px;
+                    }
+                }
+    
+                .formElement {
+                    .formSection {
+                        label {
+                            font-size: 16px;
+                        }
+
+                        div {
+                            input {
+                                font-size: 16px;
+                            }
+    
+                            textarea {
+                                height: 8rem;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+    
+                    input {
+                        width: 24%;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .contact {
+        .sectionContainer {
+            .searchInputs {
+                // grid-template-columns: repeat(2,1fr);
+
+                .singleInput {
+                    .iconGroup {
+                        margin-left: 2rem;
+
+                        .iconDiv {
+                            .icon {
+                                width: 2rem;
+                            }
+                        }
+                    }
+    
+                    .texts {
+                        h2 {
+                            font-size: 22px;
+                        }
+    
+                        h4 {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+
+            .formContainer {
+                .tittleDiv {
+                    h4 {
+                        font-size: 26px;
+                    }
+                }
+    
+                .formElement {
+                    .formSection {
+                        label {
+                            font-size: 18px;
+                        }
+
+                        div {
+                            input {
+                                font-size: 18px;
+                            }
+    
+                            textarea {
+                                height: 10rem;
+                                font-size: 18px;
+                            }
+                        }
+                    }
+    
+                    input {
+                        width: 24%;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contact {
+        .sectionContainer {
+            .searchInputs {
+                // grid-template-columns: repeat(2,1fr);
+
+                .singleInput {
+                    .texts {
+                        h2 {
+                            font-size: 24px;
+                        }
+    
+                        h4 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+
+            .formContainer {
+                .formElement {
+                    input {
+                        width: 18%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .contact {
+        .sectionContainer {
+            grid-template-columns: repeat(2,1fr);
+            gap: 2rem;
+
+            .searchInputs {
+                .singleInput {
+                    .iconGroup {
+                        margin-left: 2rem;
+
+                        .iconDiv {
+                            .icon {
+                                width: 2rem;
+                            }
+                        }
+                    }
+    
+                    .texts {
+                        h2 {
+                            font-size: 24px;
+                        }
+    
+                        h4 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+
+            .formContainer {
+                .formElement {
+                    .formSection {
+                        div {
+                            textarea {
+                                height: 14rem;
+                            }
+                        }
+                    }
+    
+                    input {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1332px) {
+    .contact {
+        .sectionContainer {
+            // .searchInputs {
+            //     margin-left: 2rem;
+            //     .singleInput {
+            //         .iconDiv {
+            //             .icon {
+            //                 width: 2.5rem;
+            //             }
+            //         }
+    
+            //         .texts {
+            //             h4 {
+            //                 font-size: 24px;
+            //             }
+            //         }
+            //     }
+            // }
+
+            .formContainer {
+                .formElement {
+                    .formSection {
+                        div {
+                            textarea {
+                                height: 12rem;
+                            }
+                        }
+                    }
+    
+                    input {
+                        width: 26%;
+                    }
+                }
+            }
+        }
+    }
+}

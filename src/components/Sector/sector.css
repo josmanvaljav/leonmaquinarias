@@ -1,0 +1,92 @@
+.sector .sectionContainer {
+  width: 100%;
+  padding: 1.5rem;
+  border: 2px solid var(--primaryColor);
+  border-radius: 16px;
+  row-gap: 2rem;
+}
+.sector .sectionContainer .description {
+  text-align: center;
+}
+.sector .sectionContainer .description p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.sector .sectionContainer .searchInputs {
+  width: 100%;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.sector .sectionContainer .searchInputs .singleInput {
+  margin-left: 1rem;
+}
+.sector .sectionContainer .searchInputs .singleInput .iconDiv {
+  width: 4rem;
+  height: 3rem;
+  border-radius: 2.5rem;
+  background: var(--primaryColor);
+  display: flex;
+}
+.sector .sectionContainer .searchInputs .singleInput .iconDiv .icon {
+  margin: 0 auto;
+  color: var(--secondaryColor);
+  width: 3rem;
+  height: auto;
+}
+.sector .sectionContainer .searchInputs .singleInput .texts h4 {
+  padding-top: 0;
+  padding-bottom: 0.7rem;
+  margin-left: 1rem;
+  color: var(--blackColor);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 480px) {
+  .sector .sectionContainer .searchInputs .singleInput .iconDiv .icon {
+    width: 1.5rem;
+  }
+  .sector .sectionContainer .searchInputs .singleInput .texts h4 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .sector .sectionContainer .searchInputs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .sector .sectionContainer .searchInputs .singleInput .iconDiv .icon {
+    width: 1.5rem;
+  }
+  .sector .sectionContainer .searchInputs .singleInput .texts h4 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .sector .sectionContainer .description {
+    margin-bottom: 1rem;
+  }
+  .sector .sectionContainer .description .singleGrid p {
+    font-size: 18px;
+  }
+  .sector .sectionContainer .searchInputs {
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .sector .sectionContainer .searchInputs .singleInput .iconDiv .icon {
+    width: 2rem;
+  }
+  .sector .sectionContainer .searchInputs .singleInput .texts h4 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .sector .sectionContainer .searchInputs {
+    margin-left: 2rem;
+  }
+  .sector .sectionContainer .searchInputs .singleInput .iconDiv .icon {
+    width: 2.5rem;
+  }
+  .sector .sectionContainer .searchInputs .singleInput .texts h4 {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=sector.css.map */

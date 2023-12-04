@@ -1,0 +1,167 @@
+// Search -----------------------------------
+.sector {
+    .sectionContainer {
+        width: 100%;
+        padding: 1.5rem;
+        border: 2px solid var(--primaryColor);
+        border-radius: 16px;
+        row-gap: 2rem;
+
+        .description {
+            text-align: center;
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+            }
+
+        }
+
+        .searchInputs {
+            width: 100%;
+            // justify-content: center;
+            // left: 20%;
+            flex-direction: column;
+            gap: 1.5rem;
+
+            .singleInput {
+                margin-left: 1rem;
+
+                .iconDiv {
+                    // padding: 16px 10px;
+                    width: 4rem;
+                    height: 3rem;
+                    border-radius: 2.5rem;
+                    background: var(--primaryColor);
+                    display: flex;
+                    // margin-right: 1rem;
+
+                    .icon {
+                        margin: 0 auto;
+                        color: var(--secondaryColor);
+                        // opacity: 0.7;
+                        width: 3rem;
+                        height: auto;
+                    }
+                }
+
+                .texts {
+                    h4 {
+                        padding-top: 0;
+                        padding-bottom: 0.7rem;
+                        margin-left: 1rem;
+                        color: var(--blackColor);
+                        font-weight: 700;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .sector {
+        .sectionContainer {
+            .searchInputs {
+                .singleInput {
+                    .iconDiv {
+                        .icon {
+                            width: 1.5rem;
+                        }
+                    }
+    
+                    .texts {
+                        h4 {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .sector {
+        .sectionContainer {
+            .searchInputs {
+                grid-template-columns: repeat(2,1fr);
+
+                .singleInput {
+                    .iconDiv {
+                        .icon {
+                            width: 1.5rem;
+                        }
+                    }
+    
+                    .texts {
+                        h4 {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .sector {
+        .sectionContainer {
+            .description {
+                margin-bottom: 1rem;
+
+                .singleGrid {
+                    p {
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .searchInputs {
+                margin-left: 2rem;
+                margin-bottom: 1.5rem;
+
+                .singleInput {
+                    .iconDiv {
+                        .icon {
+                            width: 2rem;
+                        }
+                    }
+    
+                    .texts {
+                        h4 {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1332px) {
+    .sector {
+        .sectionContainer {
+            .searchInputs {
+                margin-left: 2rem;
+                // margin-bottom: 1.5rem;
+
+                .singleInput {
+                    .iconDiv {
+                        .icon {
+                            width: 2.5rem;
+                        }
+                    }
+    
+                    .texts {
+                        h4 {
+                            font-size: 24px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

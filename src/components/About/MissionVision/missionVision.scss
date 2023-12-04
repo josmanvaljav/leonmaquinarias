@@ -1,0 +1,43 @@
+// Mission / Vision -----------------------------------
+.missionVisionContainer {
+    gap: 4rem;
+    margin: 4rem 8rem;
+    grid-template-columns: repeat(2,1fr);
+    align-items: start;
+
+    .mission {
+        .mission_title {
+            display: flex;
+            gap: 2rem;
+
+            .mission_icon {
+                width: 50px;
+                height: 50px;
+                color: var(--secondaryColor);
+            }
+
+            h3 {
+                font-size: 40px;
+                color: var(--primaryColor);
+            }
+        }
+    }
+
+    .vision {
+        .vision_title {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .vision_icon {
+            width: 50px;
+            height: 50px;
+            color: var(--secondaryColor);
+        }
+
+        h3 {
+            font-size: 40px;
+            color: var(--primaryColor);
+        }
+    }
+}

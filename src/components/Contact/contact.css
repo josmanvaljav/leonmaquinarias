@@ -1,0 +1,196 @@
+.contact .sectionContainer {
+  width: 100%;
+  row-gap: 2rem;
+}
+.contact .sectionContainer .searchInputs {
+  width: 100%;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.contact .sectionContainer .searchInputs .singleInput {
+  border: 2px solid var(--primaryColor);
+  border-radius: 16px;
+  padding: 2rem 0;
+}
+.contact .sectionContainer .searchInputs .singleInput .iconGroup {
+  margin-right: 1rem;
+  margin-left: 0.8rem;
+  gap: 0.5rem;
+}
+.contact .sectionContainer .searchInputs .singleInput .iconGroup .iconDiv {
+  width: 4rem;
+  height: 3rem;
+  border-radius: 2.5rem;
+  background: var(--primaryColor);
+  display: flex;
+}
+.contact .sectionContainer .searchInputs .singleInput .iconGroup .iconDiv .icon {
+  margin: 0 auto;
+  color: var(--secondaryColor);
+  width: 3rem;
+  height: auto;
+}
+.contact .sectionContainer .searchInputs .singleInput .texts h2 {
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+  color: var(--blackColor);
+  font-weight: 700;
+  font-size: 18px;
+}
+.contact .sectionContainer .searchInputs .singleInput .texts h4 {
+  padding-top: 0;
+  padding-bottom: 0.5rem;
+  color: var(--blackColor);
+  font-weight: 400;
+  font-size: 14px;
+}
+.contact .sectionContainer .formContainer {
+  width: 100%;
+}
+.contact .sectionContainer .formContainer .tittleDiv h4 {
+  width: 100%;
+  text-align: center;
+}
+.contact .sectionContainer .formContainer .formElement {
+  width: 100%;
+}
+.contact .sectionContainer .formContainer .formElement .formSection {
+  margin-bottom: 0.8rem;
+}
+.contact .sectionContainer .formContainer .formElement .formSection div input {
+  width: 100%;
+}
+.contact .sectionContainer .formContainer .formElement .formSection div textarea {
+  width: 100%;
+  height: 6rem;
+  font-size: 14px;
+}
+.contact .sectionContainer .formContainer .formElement input {
+  width: 40%;
+}
+
+@media screen and (min-width: 480px) {
+  .contact .sectionContainer .searchInputs .singleInput {
+    margin-right: 1rem;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .iconGroup {
+    margin-left: 1.5rem;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .iconGroup .iconDiv .icon {
+    width: 1.5rem;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .texts {
+    margin-left: 1rem;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .texts h2 {
+    font-size: 20px;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .texts h4 {
+    font-size: 16px;
+  }
+  .contact .sectionContainer .formContainer .tittleDiv h4 {
+    font-size: 20px;
+  }
+  .contact .sectionContainer .formContainer .formElement input {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 570px) {
+  .contact .sectionContainer .searchInputs .singleInput .texts h2 {
+    font-size: 22px;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .texts h4 {
+    font-size: 18px;
+  }
+  .contact .sectionContainer .formContainer .tittleDiv h4 {
+    font-size: 22px;
+  }
+  .contact .sectionContainer .formContainer .formElement .formSection label {
+    font-size: 16px;
+  }
+  .contact .sectionContainer .formContainer .formElement .formSection div input {
+    font-size: 16px;
+  }
+  .contact .sectionContainer .formContainer .formElement .formSection div textarea {
+    height: 8rem;
+    font-size: 16px;
+  }
+  .contact .sectionContainer .formContainer .formElement input {
+    width: 24%;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .contact .sectionContainer .searchInputs .singleInput .iconGroup {
+    margin-left: 2rem;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .iconGroup .iconDiv .icon {
+    width: 2rem;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .texts h2 {
+    font-size: 22px;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .texts h4 {
+    font-size: 18px;
+  }
+  .contact .sectionContainer .formContainer .tittleDiv h4 {
+    font-size: 26px;
+  }
+  .contact .sectionContainer .formContainer .formElement .formSection label {
+    font-size: 18px;
+  }
+  .contact .sectionContainer .formContainer .formElement .formSection div input {
+    font-size: 18px;
+  }
+  .contact .sectionContainer .formContainer .formElement .formSection div textarea {
+    height: 10rem;
+    font-size: 18px;
+  }
+  .contact .sectionContainer .formContainer .formElement input {
+    width: 24%;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact .sectionContainer .searchInputs .singleInput .texts h2 {
+    font-size: 24px;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .texts h4 {
+    font-size: 20px;
+  }
+  .contact .sectionContainer .formContainer .formElement input {
+    width: 18%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .contact .sectionContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .iconGroup {
+    margin-left: 2rem;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .iconGroup .iconDiv .icon {
+    width: 2rem;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .texts h2 {
+    font-size: 24px;
+  }
+  .contact .sectionContainer .searchInputs .singleInput .texts h4 {
+    font-size: 20px;
+  }
+  .contact .sectionContainer .formContainer .formElement .formSection div textarea {
+    height: 14rem;
+  }
+  .contact .sectionContainer .formContainer .formElement input {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .contact .sectionContainer .formContainer .formElement .formSection div textarea {
+    height: 12rem;
+  }
+  .contact .sectionContainer .formContainer .formElement input {
+    width: 26%;
+  }
+}/*# sourceMappingURL=contact.css.map */

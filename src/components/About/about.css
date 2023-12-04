@@ -1,0 +1,42 @@
+.about .sectionContainer {
+  gap: 2rem;
+}
+.about .sectionContainer .imageContainer {
+  gap: 1.5rem;
+}
+.about .sectionContainer .imageContainer .imgDiv {
+  margin: auto;
+  padding: 1.5rem;
+  border: 2px solid var(--greyBg);
+  border-radius: 6rem;
+}
+.about .sectionContainer .imageContainer .imgDiv img {
+  width: 100%;
+  max-width: 430px;
+  border-radius: 6rem;
+}
+.about .sectionContainer .imageContainer .imgDiv:hover {
+  border: 2px solid var(--primaryColor);
+}
+.about .sectionContainer .textDiv {
+  gap: 1.5rem;
+}
+.about .sectionContainer .textDiv .tittleDiv {
+  margin: 0 auto;
+}
+.about .sectionContainer .textDiv .singleGrid p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 960px) {
+  .about {
+    margin-bottom: 2rem;
+  }
+  .about .sectionContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about .sectionContainer .textDiv .singleGrid p {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=about.css.map */

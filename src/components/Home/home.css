@@ -1,0 +1,88 @@
+@media screen and (min-width: 480px) {
+  .home .mainText {
+    top: 35%;
+    width: 60%;
+  }
+  .home .mainText h4 {
+    font-size: 14px;
+  }
+  .home .mainText h1 {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .home .mainText {
+    top: 38%;
+    width: 60%;
+  }
+  .home .mainText h4 {
+    font-size: 16px;
+  }
+  .home .mainText h1 {
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .home .mainText {
+    top: 44%;
+    width: 60%;
+  }
+  .home .mainText h4 {
+    font-size: 16px;
+  }
+  .home .mainText h1 {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home .mainText {
+    top: 50%;
+    right: 2rem;
+    width: 64%;
+  }
+  .home .mainText h4 {
+    font-size: 18px;
+  }
+  .home .mainText h1 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .home .mainText {
+    top: 58%;
+    width: 68%;
+  }
+  .home .mainText h4 {
+    font-size: 22px;
+  }
+  .home .mainText h1 {
+    font-size: 42px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .home {
+    padding-top: 5rem;
+  }
+  .home .mainText {
+    top: 64%;
+    width: 70%;
+  }
+  .home .mainText h4 {
+    font-size: 22px;
+  }
+  .home .mainText h1 {
+    font-size: 46px;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .home .mainText {
+    top: 82%;
+    width: 70%;
+  }
+  .home .mainText h4 {
+    font-size: 22px;
+  }
+  .home .mainText h1 {
+    font-size: 50px;
+  }
+}/*# sourceMappingURL=home.css.map */

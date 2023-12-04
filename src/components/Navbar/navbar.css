@@ -1,0 +1,93 @@
+.navBars {
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+  transition: display 1s ease-in-out;
+}
+.navBars .firstBar {
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  width: 100%;
+  background: var(--whiteColor);
+}
+.navBars .firstBar .firstBarLogo {
+  width: 20%;
+  height: auto;
+}
+.navBars .firstBar .firstBarInfo {
+  gap: 3rem;
+}
+.navBars .firstBar .firstBarInfo .firstBarContent {
+  gap: 0.5rem;
+}
+.navBars .firstBar .firstBarInfo .firstBarContent .firstBarIconDiv {
+  border: solid 1.5px;
+  border-color: var(--primaryColor);
+  border-radius: 50%;
+  padding: 4px;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+.navBars .firstBar .firstBarInfo .firstBarContent .firstBarIconDiv .firstBarIcon {
+  margin: 0 auto;
+  color: ar(--primaryColor);
+  width: 3rem;
+  height: 3rem;
+}
+.navBars .firstBar .firstBarInfo .firstBarContent p {
+  color: var(--primaryColor);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.navBars .secondBar {
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  width: 100%;
+  background: var(--primaryColor);
+}
+.navBars .secondBar .secondBarLogo {
+  width: 24%;
+  height: auto;
+}
+.navBars .secondBar .secondNavBar .navBarTitleDiv {
+  padding: 4px;
+  margin-right: 10px;
+}
+.navBars .secondBar .secondNavBar .navBarTitleDiv .navBarTitle {
+  color: var(--whiteColor);
+}
+.navBars .secondBar .secondNavBar .active {
+  border-bottom: 2px solid var(--secondaryColor);
+}
+.navBars .secondBar .toggleIcon .icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  color: var(--secondaryColor);
+}
+.navBars .popupBar {
+  width: 200px;
+  height: 250px;
+  padding: 6px;
+  background: var(--whiteColor);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  position: absolute;
+  right: 0;
+}
+.navBars .popupBar .popupMargin {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--primaryColor);
+  padding: 20px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.navBars .popupBar .popupMargin .popupNavBar .popupBarTitleDiv {
+  padding: 4px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.navBars .popupBar .popupMargin .popupNavBar .popupBarTitleDiv .popupBarTitle {
+  color: var(--primaryColor);
+  font-weight: 500;
+}/*# sourceMappingURL=navbar.css.map */

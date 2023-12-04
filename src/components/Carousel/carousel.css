@@ -1,0 +1,62 @@
+.container-slider {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 150px;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+}
+.container-slider .slide {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  opacity: 0;
+  transition: opacity ease-in-out 0.4s;
+}
+.container-slider .active-anim {
+  opacity: 1;
+}
+.container-slider .carouselbuttonDiv {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container-slider .btn-slide {
+  font-size: 60px;
+  font-weight: bold;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.592);
+}
+.container-slider .next {
+  right: 5%;
+  transform: translateY(-50%);
+}
+.container-slider .prev {
+  left: 5%;
+  transform: translateY(-50%);
+}
+
+.dots-container {
+  width: 100%;
+  justify-content: center;
+  margin-top: -50px;
+}
+.dots-container .dot-container-item {
+  margin-left: 2px;
+  font-size: 18px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.745);
+}
+.dots-container .active {
+  background: rgba(41, 41, 41, 0.6431372549);
+  border-radius: 50%;
+}/*# sourceMappingURL=carousel.css.map */

@@ -1,0 +1,241 @@
+// Info -----------------------------------
+.service {
+    // background: var(--secondaryColor);
+
+    .infoContainer {
+        .textDiv {
+            .tittleDiv {
+                flex-direction: column;
+                text-align: center;
+                gap: 1.5rem;
+                justify-content: space-between;
+
+                h2 {
+                    color: var(--primaryColor);
+                }
+            }
+
+            .singleText {
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .cardsDiv {
+            gap: 2.5rem;
+            margin-top: 3rem;
+
+            .singleCard {
+                background: var(--secondaryColor);
+                padding: 2rem 1rem;
+                border-radius: 10rem;
+                gap: 1rem;
+                text-align: center;
+                margin: auto;
+                height: 300px;
+                width: 90%;
+                // max-width: 250px;
+
+                .iconDiv {
+                    justify-content: center;
+                    margin: auto;
+                    background: var(--primaryColor);
+                    width: max-content;
+                    height: 160px;
+                    padding: 2rem;
+                    border-radius: 7rem;
+
+                    .icon {
+                        height: 100%;
+                        border-radius: 4rem;
+                        color: var(--whiteColor);
+                        border: 3px solid var(--whiteColor);
+                    }
+                }
+
+                .cardTittle {
+                    color: var(--blackColor);
+                    font-weight: 700;
+                    font-size: 1.4rem;
+                    width: 60%;
+                    margin: 0 auto;
+                }
+
+                .colorOne {
+                    background: var(--colorOne);
+                }
+                .colorTwo {
+                    background: var(--colorTwo);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .service {
+        .infoContainer {
+            .cardsDiv {
+                .singleCard {
+                    border-radius: 9rem;
+                    height: 360px;
+    
+                    .iconDiv {
+                        height: 210px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 570px) {
+    .service {
+        .infoContainer {
+            .cardsDiv {
+                .singleCard {
+                    border-radius: 10rem;
+                    height: 400px;
+    
+                    .iconDiv {
+                        height: 250px;
+                    }
+
+                    .cardTittle {
+                        font-size: 1.5rem;
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 680px) {
+    .service {
+        .infoContainer {
+            .textDiv {
+                .singleText {
+                    p {
+                        font-size: 16px;
+                    }
+                }
+            }
+        
+            .cardsDiv {
+                .singleCard {
+                    border-radius: 12rem;
+                    height: 460px;
+    
+                    .iconDiv {
+                        height: 300px;
+                    }
+
+                    .cardTittle {
+                        font-size: 1.5rem;
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .service {
+        .infoContainer {
+            margin-bottom: 2rem;
+
+            .cardsDiv {
+                grid-template-columns: repeat(2,1fr);
+
+                .singleCard {
+                    border-radius: 8rem;
+                    height: 360px;
+                    gap: 0.5rem;
+    
+                    .iconDiv {
+                        height: 180px;
+                    }
+
+                    .cardTittle {
+                        font-size: 1.5rem;
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .service {
+        .infoContainer {
+            .textDiv {
+                .singleText {
+                    margin: 0 3rem;
+
+                    p {
+                        font-size: 18px;
+                    }
+                }
+
+            }
+            
+            .cardsDiv {
+                .singleCard {
+                    border-radius: 8rem;
+                    height: 360px;
+                    gap: 1rem;
+    
+                    .iconDiv {
+                        height: 220px;
+                    }
+
+                    .cardTittle {
+                        font-size: 1.5rem;
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1332px) {
+    .service {
+        .infoContainer {
+            .textDiv {
+                .singleText {
+                    margin: 0 3rem;
+
+                    p {
+                        font-size: 18px;
+                    }
+                }
+
+            }
+            
+            .cardsDiv {
+                grid-template-columns: repeat(3,1fr);
+
+                .singleCard {
+                    border-radius: 8rem;
+                    height: 360px;
+                    gap: 1rem;
+    
+                    .iconDiv {
+                        height: 180px;
+                    }
+
+                    .cardTittle {
+                        font-size: 1.5rem;
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}

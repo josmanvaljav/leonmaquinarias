@@ -1,0 +1,158 @@
+.service .infoContainer .textDiv .tittleDiv {
+  flex-direction: column;
+  text-align: center;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+.service .infoContainer .textDiv .tittleDiv h2 {
+  color: var(--primaryColor);
+}
+.service .infoContainer .textDiv .singleText p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.service .infoContainer .cardsDiv {
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+.service .infoContainer .cardsDiv .singleCard {
+  background: var(--secondaryColor);
+  padding: 2rem 1rem;
+  border-radius: 10rem;
+  gap: 1rem;
+  text-align: center;
+  margin: auto;
+  height: 300px;
+  width: 90%;
+}
+.service .infoContainer .cardsDiv .singleCard .iconDiv {
+  justify-content: center;
+  margin: auto;
+  background: var(--primaryColor);
+  width: -moz-max-content;
+  width: max-content;
+  height: 160px;
+  padding: 2rem;
+  border-radius: 7rem;
+}
+.service .infoContainer .cardsDiv .singleCard .iconDiv .icon {
+  height: 100%;
+  border-radius: 4rem;
+  color: var(--whiteColor);
+  border: 3px solid var(--whiteColor);
+}
+.service .infoContainer .cardsDiv .singleCard .cardTittle {
+  color: var(--blackColor);
+  font-weight: 700;
+  font-size: 1.4rem;
+  width: 60%;
+  margin: 0 auto;
+}
+.service .infoContainer .cardsDiv .singleCard .colorOne {
+  background: var(--colorOne);
+}
+.service .infoContainer .cardsDiv .singleCard .colorTwo {
+  background: var(--colorTwo);
+}
+
+@media screen and (min-width: 480px) {
+  .service .infoContainer .cardsDiv .singleCard {
+    border-radius: 9rem;
+    height: 360px;
+  }
+  .service .infoContainer .cardsDiv .singleCard .iconDiv {
+    height: 210px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .service .infoContainer .cardsDiv .singleCard {
+    border-radius: 10rem;
+    height: 400px;
+  }
+  .service .infoContainer .cardsDiv .singleCard .iconDiv {
+    height: 250px;
+  }
+  .service .infoContainer .cardsDiv .singleCard .cardTittle {
+    font-size: 1.5rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 680px) {
+  .service .infoContainer .textDiv .singleText p {
+    font-size: 16px;
+  }
+  .service .infoContainer .cardsDiv .singleCard {
+    border-radius: 12rem;
+    height: 460px;
+  }
+  .service .infoContainer .cardsDiv .singleCard .iconDiv {
+    height: 300px;
+  }
+  .service .infoContainer .cardsDiv .singleCard .cardTittle {
+    font-size: 1.5rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .service .infoContainer {
+    margin-bottom: 2rem;
+  }
+  .service .infoContainer .cardsDiv {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .service .infoContainer .cardsDiv .singleCard {
+    border-radius: 8rem;
+    height: 360px;
+    gap: 0.5rem;
+  }
+  .service .infoContainer .cardsDiv .singleCard .iconDiv {
+    height: 180px;
+  }
+  .service .infoContainer .cardsDiv .singleCard .cardTittle {
+    font-size: 1.5rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 960px) {
+  .service .infoContainer .textDiv .singleText {
+    margin: 0 3rem;
+  }
+  .service .infoContainer .textDiv .singleText p {
+    font-size: 18px;
+  }
+  .service .infoContainer .cardsDiv .singleCard {
+    border-radius: 8rem;
+    height: 360px;
+    gap: 1rem;
+  }
+  .service .infoContainer .cardsDiv .singleCard .iconDiv {
+    height: 220px;
+  }
+  .service .infoContainer .cardsDiv .singleCard .cardTittle {
+    font-size: 1.5rem;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .service .infoContainer .textDiv .singleText {
+    margin: 0 3rem;
+  }
+  .service .infoContainer .textDiv .singleText p {
+    font-size: 18px;
+  }
+  .service .infoContainer .cardsDiv {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .service .infoContainer .cardsDiv .singleCard {
+    border-radius: 8rem;
+    height: 360px;
+    gap: 1rem;
+  }
+  .service .infoContainer .cardsDiv .singleCard .iconDiv {
+    height: 180px;
+  }
+  .service .infoContainer .cardsDiv .singleCard .cardTittle {
+    font-size: 1.5rem;
+    width: 60%;
+  }
+}/*# sourceMappingURL=service.css.map */

@@ -1,13 +1,168 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap");
+
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --primaryColor: rgb(38, 34, 98);
+  --secondaryColor: rgb(238, 195, 32);
+  --thirdColor: rgb(233, 78, 27);
+  --whatsappColor: rgb(37, 211, 102);
+  --colorOne: rgb(235, 150, 122);
+  --colorTwo: rgb(255, 206, 163);
+  --hoverColor: rgb(92, 121, 209);
+  --whiteColor: rgb(255, 255, 255);
+  --blackColor: rgb(31, 31, 31);
+  --textColor: rgb(121, 121, 124);
+  --borderColor: rgb(212, 212, 212);
+  --whiteColorDeam: rgb(237, 237, 237);
+  --greyBg: rgb(245, 245, 245);
+  --greyText: rgb(145, 145, 145);
+  --greyColor: rgb(189, 187, 187);
+  --inputColor: rgb(248, 246, 247);
+  --boxShadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  --boxShadow005: 0px, 4px, 6px, -2px rgba(0, 0, 0, 0.05);
+  --transition: 0.4s ease-in-out;
+  --transition03s: 0.3s ease-in-out;
+}
+
+body {
+  background: var(--whiteColor);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.section {
+  padding: 4rem 0 2rem;
+}
+
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+.none {
+  display: none;
+}
+
+.btn {
+  padding: 0.7rem 1.5rem;
+  margin-left: 0.625rem;
+  background: var(--primaryColor);
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  color: var(--whiteColor);
+}
+.btn a {
+  color: var(--whiteColor);
+  font-weight: 500;
+}
+.btn:hover {
+  background: var(--hoverColor);
+}
+
+.btn2 {
+  padding: 0.7rem 1.5rem;
+  margin-left: 0.625rem;
+  background: var(--secondaryColor);
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  color: var(--primaryColor);
+  font-weight: bold;
+}
+
+img, video {
+  width: 100%;
+  height: auto;
+}
+
+input {
+  font-size: 100%;
+  color: var(--greyText);
+}
+
+p {
+  font-size: 13px;
+  color: var(--greyText);
+  line-height: 22px;
+}
+
+h4 {
+  padding: 1rem 0;
+  font-weight: 700;
+  color: var(--blackColor);
+}
+
+h2 {
+  font-size: 25px;
+  padding: 1rem 0;
+  color: var(--blackColor);
+}
+
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 27px;
+  }
+  .section {
+    padding: 6rem 0 4rem;
+  }
+  .container {
+    width: 85%;
+    margin: auto;
+  }
+}
+::-moz-selection {
+  background: var(--primaryColor);
+  color: var(--whiteColor);
+}
+::selection {
+  background: var(--primaryColor);
+  color: var(--whiteColor);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: var(--greyBg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primaryColor);
+  border-radius: 10px;
 }

@@ -1,0 +1,61 @@
+// About -----------------------------------
+.about {
+    .sectionContainer {
+        gap: 2rem;
+
+        .imageContainer {
+            gap: 1.5rem;
+
+            .imgDiv {
+                margin: auto;
+                padding: 1.5rem;
+                border: 2px solid var(--greyBg);
+                border-radius: 6rem;
+        
+
+                img {
+                    width: 100%;
+                    max-width: 430px;
+                    border-radius: 6rem;
+                }
+
+                &:hover {
+                    border: 2px solid var(--primaryColor);
+                }
+            }
+        }
+
+        .textDiv {
+            gap: 1.5rem;
+
+            .tittleDiv {
+                margin: 0 auto;
+            }
+
+            .singleGrid {
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .about {
+        margin-bottom: 2rem;
+
+        .sectionContainer {
+            grid-template-columns: repeat(2,1fr);
+
+            .textDiv {
+                .singleGrid {
+                    p {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}

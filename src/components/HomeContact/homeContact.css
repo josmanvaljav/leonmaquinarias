@@ -1,0 +1,113 @@
+.homeContact {
+  padding-top: 4rem;
+  width: 100%;
+}
+.homeContact .homeImages {
+  width: 100%;
+  margin: 1rem auto 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.homeContact .homeImages .imageFront {
+  width: 100%;
+}
+.homeContact .mainText {
+  width: 100%;
+  top: 20%;
+  position: absolute;
+}
+.homeContact .mainText h1 {
+  text-align: center;
+  color: var(--whiteColor);
+  font-weight: 700;
+  font-size: 20px;
+}
+.homeContact .mainText h2 {
+  text-align: center;
+  color: var(--thirdColor);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .homeContact .mainText {
+    top: 25%;
+  }
+  .homeContact .mainText h1 {
+    font-size: 30px;
+  }
+  .homeContact .mainText h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .homeContact .mainText {
+    top: 25%;
+  }
+  .homeContact .mainText h1 {
+    font-size: 40px;
+  }
+  .homeContact .mainText h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .homeContact .mainText {
+    top: 30%;
+  }
+  .homeContact .mainText h1 {
+    font-size: 44px;
+  }
+  .homeContact .mainText h2 {
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .homeContact .mainText {
+    top: 30%;
+  }
+  .homeContact .mainText h1 {
+    font-size: 50px;
+  }
+  .homeContact .mainText h2 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .homeContact .mainText {
+    top: 38%;
+  }
+  .homeContact .mainText h1 {
+    font-size: 55px;
+  }
+  .homeContact .mainText h2 {
+    font-size: 55px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .homeContact {
+    padding-top: 5rem;
+  }
+  .homeContact .mainText {
+    top: 40%;
+  }
+  .homeContact .mainText h1 {
+    font-size: 60px;
+  }
+  .homeContact .mainText h2 {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .homeContact .mainText {
+    top: 50%;
+  }
+  .homeContact .mainText h1 {
+    font-size: 70px;
+  }
+  .homeContact .mainText h2 {
+    font-size: 70px;
+  }
+}/*# sourceMappingURL=homeContact.css.map */

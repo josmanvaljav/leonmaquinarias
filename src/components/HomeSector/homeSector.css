@@ -1,0 +1,113 @@
+.homeSector {
+  padding-top: 4rem;
+  width: 100%;
+}
+.homeSector .homeImages {
+  width: 100%;
+  margin: 1rem auto 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.homeSector .homeImages .imageFront {
+  width: 100%;
+}
+.homeSector .mainText {
+  width: 100%;
+  top: 20%;
+  position: absolute;
+}
+.homeSector .mainText h1 {
+  text-align: center;
+  color: var(--whiteColor);
+  font-weight: 700;
+  font-size: 20px;
+}
+.homeSector .mainText h2 {
+  text-align: center;
+  color: var(--thirdColor);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .homeSector .mainText {
+    top: 25%;
+  }
+  .homeSector .mainText h1 {
+    font-size: 30px;
+  }
+  .homeSector .mainText h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .homeSector .mainText {
+    top: 25%;
+  }
+  .homeSector .mainText h1 {
+    font-size: 40px;
+  }
+  .homeSector .mainText h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .homeSector .mainText {
+    top: 30%;
+  }
+  .homeSector .mainText h1 {
+    font-size: 44px;
+  }
+  .homeSector .mainText h2 {
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .homeSector .mainText {
+    top: 30%;
+  }
+  .homeSector .mainText h1 {
+    font-size: 50px;
+  }
+  .homeSector .mainText h2 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .homeSector .mainText {
+    top: 38%;
+  }
+  .homeSector .mainText h1 {
+    font-size: 55px;
+  }
+  .homeSector .mainText h2 {
+    font-size: 55px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .homeSector {
+    padding-top: 5rem;
+  }
+  .homeSector .mainText {
+    top: 40%;
+  }
+  .homeSector .mainText h1 {
+    font-size: 60px;
+  }
+  .homeSector .mainText h2 {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .homeSector .mainText {
+    top: 50%;
+  }
+  .homeSector .mainText h1 {
+    font-size: 70px;
+  }
+  .homeSector .mainText h2 {
+    font-size: 70px;
+  }
+}/*# sourceMappingURL=homeSector.css.map */

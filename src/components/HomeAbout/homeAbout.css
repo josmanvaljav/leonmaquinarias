@@ -1,0 +1,113 @@
+.homeAbout {
+  padding-top: 4rem;
+  width: 100%;
+}
+.homeAbout .homeImages {
+  width: 100%;
+  margin: 1rem auto 0;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.homeAbout .homeImages .imageFront {
+  width: 100%;
+}
+.homeAbout .mainText {
+  width: 100%;
+  top: 20%;
+  position: absolute;
+}
+.homeAbout .mainText h1 {
+  text-align: center;
+  color: var(--whiteColor);
+  font-weight: 700;
+  font-size: 20px;
+}
+.homeAbout .mainText h2 {
+  text-align: center;
+  color: var(--thirdColor);
+  font-weight: 700;
+  font-size: 20px;
+  padding: 0;
+}
+
+@media screen and (min-width: 480px) {
+  .homeAbout .mainText {
+    top: 25%;
+  }
+  .homeAbout .mainText h1 {
+    font-size: 30px;
+  }
+  .homeAbout .mainText h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 570px) {
+  .homeAbout .mainText {
+    top: 25%;
+  }
+  .homeAbout .mainText h1 {
+    font-size: 40px;
+  }
+  .homeAbout .mainText h2 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 680px) {
+  .homeAbout .mainText {
+    top: 30%;
+  }
+  .homeAbout .mainText h1 {
+    font-size: 44px;
+  }
+  .homeAbout .mainText h2 {
+    font-size: 44px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .homeAbout .mainText {
+    top: 30%;
+  }
+  .homeAbout .mainText h1 {
+    font-size: 50px;
+  }
+  .homeAbout .mainText h2 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 960px) {
+  .homeAbout .mainText {
+    top: 38%;
+  }
+  .homeAbout .mainText h1 {
+    font-size: 55px;
+  }
+  .homeAbout .mainText h2 {
+    font-size: 55px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .homeAbout {
+    padding-top: 5rem;
+  }
+  .homeAbout .mainText {
+    top: 40%;
+  }
+  .homeAbout .mainText h1 {
+    font-size: 60px;
+  }
+  .homeAbout .mainText h2 {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 1332px) {
+  .homeAbout .mainText {
+    top: 50%;
+  }
+  .homeAbout .mainText h1 {
+    font-size: 70px;
+  }
+  .homeAbout .mainText h2 {
+    font-size: 70px;
+  }
+}/*# sourceMappingURL=homeAbout.css.map */
