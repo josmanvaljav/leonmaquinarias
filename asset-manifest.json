@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/leonmaquinarias/static/css/main.3b1b6728.css",
-    "main.js": "/leonmaquinarias/static/js/main.39237c0d.js",
+    "main.js": "/leonmaquinarias/static/js/main.fd25e458.js",
     "static/media/slide3.jpg": "/leonmaquinarias/static/media/slide3.ad52410c256b364767f7.jpg",
     "static/media/slide2.jpg": "/leonmaquinarias/static/media/slide2.122b2ef4d9ae4dc76488.jpg",
     "static/media/slide1.jpg": "/leonmaquinarias/static/media/slide1.47dd9ad66db762e82980.jpg",
@@ -9,10 +9,10 @@
     "static/media/Maquinaria-pesada.jpg": "/leonmaquinarias/static/media/Maquinaria-pesada.aa8ed14d1b3c53945aef.jpg",
     "index.html": "/leonmaquinarias/index.html",
     "main.3b1b6728.css.map": "/leonmaquinarias/static/css/main.3b1b6728.css.map",
-    "main.39237c0d.js.map": "/leonmaquinarias/static/js/main.39237c0d.js.map"
+    "main.fd25e458.js.map": "/leonmaquinarias/static/js/main.fd25e458.js.map"
   },
   "entrypoints": [
     "static/css/main.3b1b6728.css",
-    "static/js/main.39237c0d.js"
+    "static/js/main.fd25e458.js"
   ]
 }
